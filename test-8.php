@@ -1,25 +1,27 @@
 <?php
 // if elseif statement
 
-$per = 100;
+$number = 100;
 
-if($per >= 90 && $per <= 100){
+if($number >= 90 && $number <= 100){
     echo "you are  in 'A+' grade";
-}elseif ($per >= 80 && $per < 90) {
+}elseif ($number >= 80 && $number < 90) {
     echo "you are in 'A' grade";
-}elseif ($per >= 70 && $per < 80) {
+}elseif ($number >= 70 && $number < 80) {
     echo "you are in 'B+' grade";
-}elseif ($per >= 60 && $per < 70) {
+}elseif ($number >= 60 && $number < 70) {
     echo "you are in 'C+' grade";
-}elseif ($per >= 50 && $per < 60) {
+}elseif ($number >= 50 && $number < 60) {
     echo "you are in 'C' grade";
-}elseif ($per >= 40 && $per < 50) {
+}elseif ($number >= 40 && $number < 50) {
     echo "you are in 'D' grade";
-}elseif ($per >= 30 && $per < 40) {
+}elseif ($number >= 30 && $number < 40) {
     echo "you are in '-D' grade";
-}elseif ($per < 30) {
+}elseif ($number < 30) {
     echo "you are Fail";
 }else{
     echo "Please enter your valid parcesntage";
 }
+
+
 ?>

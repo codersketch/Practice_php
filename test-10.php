@@ -1,4 +1,5 @@
 <?php
+
 // ternary operator
 
 $age = 15;
@@ -8,6 +9,7 @@ $age = 15;
 
 // or
 
-$elegable = "age you elegable : " . ($age > 18?  "yes" : "no");
+$elegable = "age you elegable : " . ($age >= 18?  "yes" : "no");
 echo $elegable;
+
 ?>
