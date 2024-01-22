@@ -1,10 +1,20 @@
 <?php
 // veriable function
 
-$user = function($num){
-    echo .9876545321;
+function user1($name){
+    echo "hellow $name";
+}
+$func = "user1";
+$func("akash");
+echo"<br>";
+
+$user2 = function($name2){
+    echo "hi my name is $name2";
 };
-$user(100);
+$user2("sujoy");
+
+
+
 
 
 ?>
