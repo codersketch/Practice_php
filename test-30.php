@@ -1,5 +1,5 @@
 <?php
-// multidimensional array with lish
+// multidimensional array with list
 
 $user = [
     [1, "Akash Halder", "CEO", 50000],
