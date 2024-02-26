@@ -1,6 +1,6 @@
 <?php
 
-// continue statement
+// break and continue statement
 
 for ($a = 0; $a <= 10 ; $a++) { 
     if ($a == 3) {
